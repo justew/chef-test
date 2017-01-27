@@ -1,10 +1,12 @@
 name 'chef-test'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'justew'
+maintainer_email 'mumiran0126@gmail.com'
 license 'all_rights'
 description 'Installs/Configures chef-test'
 long_description 'Installs/Configures chef-test'
 version '0.1.0'
+source_url 'https://github.com/justew/chef-test.git' if respond_to?(:source_url)
+issues_url 'https://github.com/justew/chef-test/issues' if respond_to?(:issues_url)
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
