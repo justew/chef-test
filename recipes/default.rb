@@ -14,5 +14,5 @@ end
 package "elasticsearch"
 
 service "elasticsearch" do
-  actions :enable :start
+  action [:enable, :start]
 end
